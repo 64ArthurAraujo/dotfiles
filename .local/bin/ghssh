@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Returns a github ssh url using the user/organization and the repository name.
+
+if [ -z "$1" ]; then 
+	echo "Please specify a github repository"
+else
+	echo "git@github.com:$1.git"
+fi
