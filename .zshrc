@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='nvim'
 # fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -105,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 alias z="zathura"
 alias mvnw="./mvnw"
 
+# Automatically call commands with sudo
 for command in pacman mount umount su ; do
 	alias $command="sudo $command"
 done; unset command
