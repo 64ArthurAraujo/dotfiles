@@ -104,7 +104,10 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias z="zathura"
+
+# Java workflow
 alias mvnw="./mvnw"
+alias gradlew="./gradlew"
 
 # Automatically call commands with sudo
 for command in pacman mount umount su ; do
