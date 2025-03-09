@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Change to where you clone your AURs
+aur_folder=/home/arthur/aur
+
+if [ -z "$1" ]; then 
+	echo "Please specify a AUR package"
+else
+	url="https://aur.archlinux.org/$1.git"
+	cd "$aur_folder"
+	git clone "$url"
+	cd $1
+	makepkg -si
+	echo "done!"
+fi
