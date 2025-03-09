@@ -104,6 +104,7 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias z="zathura"
+alias rm="rm -rf"
 
 # Java workflow
 alias mvnw="./mvnw"
