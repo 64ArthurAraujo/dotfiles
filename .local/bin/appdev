@@ -1,0 +1,5 @@
+#!/bin/bash
+
+~/.local/share/JetBrains/Toolbox/apps/android-studio/bin/studio ~/repos/WordView-android &
+cd ~/repos/APIWordView
+./mvnw spring-boot:run
