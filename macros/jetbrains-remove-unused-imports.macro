@@ -1,0 +1,13 @@
+# Name: Manual Macro
+# Created: 2026-04-16T14:43:31.3352741Z
+# DurationMs: 10
+# IsAbsolute: False
+# SkipInitialZero: False
+# Format: Cmd,Args...
+KP,29
+KP,56
+KP,24
+W,10
+KR,24
+KR,29
+KR,56
